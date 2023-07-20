@@ -1,0 +1,31 @@
+\begin{table}[h]
+\centering
+\caption{Comparison of processes in decentralized solution for register at 50 send rate}
+\label{tab:sendrate50}
+\begin{tabular}{cccccc}
+\hline
+Comparison & Statistic & p-value & Lower CI & Upper CI  \\
+\hline
+(bash - start.sh) & -0.015 & 1.000 & -7.268 & 7.237  \\
+(bash - sh) & 0.000 & 1.000 & -7.253 & 7.253  \\
+(bash - findy) & -106.732 & 0.000 & -113.984 & -99.479  \\
+(bash - postgres) & 0.000 & 1.000 & -7.253 & 7.253  \\
+(start.sh - bash) & 0.015 & 1.000 & -7.237 & 7.268  \\
+(start.sh - sh) & 0.015 & 1.000 & -7.237 & 7.268  \\
+(start.sh - findy) & -106.716 & 0.000 & -113.969 & -99.463  \\
+(start.sh - postgres) & 0.015 & 1.000 & -7.237 & 7.268  \\
+(sh - bash) & 0.000 & 1.000 & -7.253 & 7.253  \\
+(sh - start.sh) & -0.015 & 1.000 & -7.268 & 7.237  \\
+(sh - findy) & -106.732 & 0.000 & -113.984 & -99.479  \\
+(sh - postgres) & 0.000 & 1.000 & -7.253 & 7.253  \\
+(findy - bash) & 106.732 & 0.000 & 99.479 & 113.984  \\
+(findy - start.sh) & 106.716 & 0.000 & 99.463 & 113.969  \\
+(findy - sh) & 106.732 & 0.000 & 99.479 & 113.984  \\
+(findy - postgres) & 106.732 & 0.000 & 99.479 & 113.984  \\
+(postgres - bash) & 0.000 & 1.000 & -7.253 & 7.253  \\
+(postgres - start.sh) & -0.015 & 1.000 & -7.268 & 7.237  \\
+(postgres - sh) & 0.000 & 1.000 & -7.253 & 7.253  \\
+(postgres - findy) & -106.732 & 0.000 & -113.984 & -99.479  \\
+\hline
+\end{tabular}
+\end{table}

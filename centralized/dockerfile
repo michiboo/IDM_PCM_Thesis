@@ -1,0 +1,6 @@
+FROM python:latest
+
+# Install dependencies
+RUN python -m pip install flask psycopg2 flask_login
+COPY . /app
+CMD ["python", "./app/app.py"]
